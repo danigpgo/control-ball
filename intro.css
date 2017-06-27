@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Archistico_Simple;
+  src: url("Archistico_Simple.ttf");
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Archistico_Simple';
+  font-size: 18px;
+  position: relative;
+  background-image: url('wall.jpg');
+  background-repeat: repeat;
+}
+
+.copy {
+  float: left;
+  margin-top: 610px;
+  margin-left: 800px;
+  font-size: 12px;
+  color: grey;
+  font-family: arial;
+}
+
+.intro {
+  width: 300px;
+  position: absolute;
+  left: 110px;
+  top: 180px;
+  z-index: 3;
+  padding-left: 370px;
+  padding-right: 400px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-color: white;
+  border-radius: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #FFFDE7;
+}
+
+.play {
+  color: black;
+  font-size: 50px;
+  left: 547px;
+  top: 430px;
+  z-index: 4;
+  position: absolute;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.play:hover {
+  left: 547px;
+  top: 430px;
+  background-color: black;
+  font-family: 'Archistico_Simple';
+  padding: 10px;
+  border-radius: 10px;
+}

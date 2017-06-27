@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Archistico_Simple;
+src: url("Archistico_Simple.ttf");
+}
+
+
+
+  body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Archistico_Simple';
+  font-size: 18px;
+
+}
+
+/* FRANJA SUPERIOR */
+
+.row {
+  position: relative;
+  margin-top: 50px;
+  left: -1%;
+
+}
+
+.word {
+  margin-left: 75px;
+  margin-bottom: 25px;
+  font-size: 38px;
+}
+
+.word2 {
+  margin-left: 75px;
+  margin-bottom: 25px;
+  font-size: 38px;
+  color: grey;
+  z-index: 4;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+/* CAJA */
+
+.container {
+  width: 100%;
+  background-color: white;
+  height: 420px;
+  position: relative;
+
+}
+
+.arrow {
+  margin-top: 6px;
+  margin-left: 7px;
+  width: 40px;
+}
+
+  .ball {
+    position: absolute;
+    top: 365px;
+    left: 20px;
+    z-index: 4;
+  }
+
+  .ballimage {
+    width:50px;
+  }
+
+  .door {
+    background-color: lightgrey;
+    height: 80px;
+    width: 70px;
+    position: absolute;
+    top: 338px;
+    left: 1100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 4;
+    border-top: 2px grey solid;
+    border-left: 2px grey solid;
+    border-right: 2px grey solid;
+    background-image: url('wall.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    box-shadow: 0px -5px 25px lightgrey;
+    }
+
+/* FRANJA INFERIOR*/
+
+  .tools {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+  }
+
+  .tool {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color: white;
+    border: solid 1px black;
+
+  }
+
+  .tool:hover {
+    background-color:lightgrey;
+
+  }
+
+
+  #draggable {
+    width: 150px; height: 150px; padding: 0.5em;
+  }
